@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+     /* background-image: linear-gradient(to right,red,yellow); 
+      background-image: repeating-linear-gradient(to top right,white,rgba(74, 216, 74, 0.844) 45px)  */
+
+ background-image: linear-gradient(to right top,
+rgba(5,25,55,0.6),
+rgba(0,77,122,0.6),
+rgba(0,191,114,0.6),
+rgba(168,235,18,0.6)
+),
+url('computer2.jpg');
+background-repeat:no-repeat;
+background-size: cover;
+}
