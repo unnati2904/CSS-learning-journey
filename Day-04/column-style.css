@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5% ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: grid;
+    place-items: center;
+}
+.hero-section{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+h1{
+    border: 5px solid whitesmoke;
+    padding: 3px;
+    font-size: 40PX;
+    background-color: antiquewhite;
+    text-align: center;
+}
+p{
+    border: 5px solid whitesmoke;
+    padding: 8px;
+    font-size: 20PX;
+    background-color: aliceblue;
+    column-count: 3;
+    column-rule-color:4px solid black;
+    column-rule-color: black;
+    column-rule-style: double;
+    column-rule-width: 7px;
+    column-gap: 50px;
+    text-align: justify;
+
+}
