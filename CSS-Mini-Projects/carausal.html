@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carausal</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            html{
+                font-size: 62.5%;
+            }
+            body{
+                width: 100%;
+                height: 100vh;
+                display: grid;
+                place-items: center;
+            }
+            .container-img{
+                width: 60vw;
+                height: 50rem;
+                border-radius: 1rem;
+                box-shadow: rgba(100,100,111,0.2);
+                background-image: url(nature1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                animation-name: gallery;
+                animation-duration: 20s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+             }
+             @keyframes gallery{
+                0%{
+                    background-image: url(nature2.webp);
+                }
+                20%{
+                    background-image: url(nature3.webp);
+                }
+                40%{
+                    background-image: url(nature4.jpg);
+                }
+                60%{
+                    background-image: url(nature5.jpg);
+                }
+                80%{
+                    background-image: url(nature6.webp);
+                }
+                100%{
+                    background-image: url(nature7.jpg);
+                }
+             }
+        </style>
+    </head>
+    <body>
+        <div class="container-img"></div>
+    </body>
+</html>
