@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shake</title>
+        <style>
+             *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                width: 100%;
+                height: 100vh;
+                background-color: black;
+                display: grid;
+                place-items: center;
+            }
+            button{
+                width: 500px;
+                height:200px ;
+                border: 5px solid rgb(246, 7, 178);
+                background-color: transparent;
+                text-align: center;
+                color: rgb(246, 7, 178);
+                font-size: 50px;
+                font-weight: bold;
+
+                &:hover{
+                    border-color: aqua;
+                    color: aqua;
+                    animation: shake .2s linear;
+                }
+            }
+            @keyframes shake{
+                0%{
+                    rotate: 20deg;
+                }
+                50%{
+                    rotate: -20deg;
+                }
+                100%{
+                    rotate: 20deg;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <button type="button">Shake Me</button>
+    </body>
+</html>
